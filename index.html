@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoCloud</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    
+    <header>
+
+        <div class="cap" id="cap">
+            
+            <div class="button_jobs" href="#line_portfolio" onclick="slowScroll('#line_portfolio')">
+                <p class="text_button_jobs">Наши Работы</p>
+            </div>
+            
+
+            <div class="button_about_us" href="#team_info" onclick="slowScroll('#team_info')" >
+                <p class="text_button_about_us">О нас</p>
+
+            </div>
+            
+            <div class="logo">
+                <p class="text_logo">PhotoCloud</p>
+            </div>
+            
+            <div class="button_services" href="#line_services" onclick="slowScroll('#line_services')">
+                <p class="text_button_services">Услуги</p>
+            </div>
+
+            <div href="#" class="open-popup">
+                <p class="text_button_application" >Оставить Заявку</p>
+
+            </div>
+            
+
+            
+        
+        </div>
+    
+
+    </header>
+
+    
+
+    <div class="popup-bg">
+        <div class="popup">
+            <img class="close-popup" src="images/close.png" alt="">
+            <form action="">    ФИО
+                <input type="text"> Номер Телефона
+                <input type="tel">
+                <input value="Отправить заявку" type="submit">
+            </form>
+        </div>
+   </div>
+
+    
+
+    
+
+    <main>
+
+        <img class="CapMoscow" src="images/CapMoscow.jpg" />            
+        <div class="information_block" id="team_info">
+
+            <img class="team" src="images/team.jpg" />
+           
+            <div class="team_info" >
+                <div class="text_with_name_team">
+                    <h class="name_team_info">PhotoCloud</h>
+                    <p class="text_team_info">Мы - команда профессиональных фотографов, использующие передовые технологии для фото/видеосессий. </p>
+                </div>
+            </div>
+
+            <div class="dron_info" >
+                <div class="text_dron_info">
+                    <div class="under_text_dron_info"> Используем БПЛА последнего поколения. Оказываем услуги по всей России</div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="block_paintings">
+
+            <div class="paintings">
+                <p class="text_picaso">The main enemy of creativity is common sense</p>
+                <p class = "picaso_name">Pablo Picasso</p>
+            </div>
+
+            <img class = "dead_men" src="images/dead_man.jpg" />
+
+            <img class ="paint_men" src="images/paint_man.jpg" />
+
+        </div>
+
+        <div class="jobs" >
+
+            <div class="line_portfolio" id="line_portfolio">
+
+               <p class="text_line_portfolio">Портфолио</p>
+
+            </div>
+            
+            <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true" id="photo">
+                <swiper-slide> <img class="ekb" src="images/rome-rom-petersdom-saint-peters-panorama-sunset-sonnenuntergang.webp" /> </swiper-slide>
+                <swiper-slide> <img src="images/moscow.jpg" /> </swiper-slide>
+                <swiper-slide> <img src="images/piter.jpg" /> </swiper-slide>
+                <swiper-slide> <img src="images/sochi.jpg" /> </swiper-slide>
+                <swiper-slide> <img src="images/vladik (2).jpg" /> </swiper-slide>
+                <swiper-slide> <img src="images/kazan.jpg" /> </swiper-slide>
+                
+            </swiper-container>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+        </div>
+        
+
+        <div class="company">
+
+            <div class="list">
+
+                <ul>МЫ</ul>
+                <ul style="color: #970E35;">РАБОТАЛИ</ul>
+                <ul>С НИМИ</ul>
+
+            </div>
+
+            <img class="img_lukoil" src="images/Lukoil_logo.png" />
+
+            <img class="img_netflix" src="images/Netflix_logo.png" />
+
+            <img class="img_metro" src="images/Metro_logo.png" />
+
+            <img class="img_tesla" src="images/TESLA.png" />
+
+        </div>
+
+
+        <div class="services">
+
+            <div class="line_services" id="line_services">
+                <p class="text_services">Услуги</p>
+            </div>
+
+            <div class="container" >
+
+                <div class="item">
+
+                    <img class="img_dron" src="images/dron.png" />
+
+                    <div class="under_img">
+
+                        <p class="text_under">
+
+                            Съемка мероприятий
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <img class="img_house" src="images/house.png"  id="house">
+
+                    <div class="under_img">
+
+                        <p class="text_under">
+
+                            Съемка земельного участка
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <img class="img_advertisement" src="images/advertisement.png" />
+
+                    <div class="under_img">
+
+                        <p class="text_under">
+
+                            Съемка рекламных роликов
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        </div>
+
+        
+
+    </main>
+
+
+ 
+
+
+
+
+    <footer>
+
+        <div class="contacts">
+
+            <div class="blocks_contacts">
+
+                <div class="text_contacts1">
+                    <p class="main_text">Контакты</p>
+                    <p class="under_main_text1">PhotoCloud@gmail.com</p>
+                    <p class="under_main_text2">+7-999-696-77-27</p>
+
+                </div>
+
+                <div class="logo_contacts">
+                    <a href="https://www.snapchat.com/">
+                        <img src="images/SnapChat_logo.png" />
+                    </a>
+                    <a href="https://t.me/">
+                        <img src="images/Telegram_Logo.png" />
+                    </a>
+                    <a href="https://vk.com/youngrayser">
+                        <img src="images/VK_logo.png" />
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            <div class="navigate_buttons">
+                <div class="text_navigate" href="#team_info" onclick="slowScroll('#team_info')">О нас</div>
+                <div class="text_navigate" href="#line_services" onclick="slowScroll('#line_services')">Услуги</div>
+                <div class="text_navigate" href="#cap" onclick="slowScroll('#cap')">Главная</div>
+                <div class="text_navigate" href="#line_portfolio" onclick="slowScroll('#line_portfolio')">Портфолио</div>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+    
+
+    
+    
+    
+</body>
+
+
+
+
+<script src = 'script.js'> </script>
+
+</html>

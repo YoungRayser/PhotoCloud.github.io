@@ -1,0 +1,775 @@
+@font-face {
+    font-family: "Almendra Display";
+    src: url(/fonts/Almendra_Display/AlmendraDisplay-Regular.ttf);
+}
+
+
+
+
+.cap{
+    width: 100%;
+    height: 138px;
+    background-color: #542230;
+    display:flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .4);
+    position: relative;
+    
+    
+}
+
+
+.button_jobs{
+    width: 19%;
+    margin-left: 2%;
+    border: 7px solid #401D28;
+    border-radius: 40px;
+    
+
+}
+
+.button_jobs:hover{
+    width: 19%;
+    margin-left: 2%;
+    border: 7px solid #2F1920;
+    border-radius: 40px;
+    background-color: #3C1822;
+    
+    
+
+}
+
+.text_button_jobs{
+    font-size: 26px;
+    color: #B7A9AD;
+    text-align: center;
+    line-height: 50%;
+    
+    
+}
+
+
+.button_about_us{
+    width: 13%;
+    margin-left: 4%;
+    border: 7px solid #401D28;
+    border-radius: 40px;
+
+
+}
+
+.button_about_us:hover{
+    width: 13%;
+    margin-left: 4%;
+    border: 7px solid #2F1920;
+    border-radius: 40px;
+    background-color: #3C1822;
+
+
+}
+
+.text_button_about_us{
+    font-size: 26px;
+    color: #B7A9AD;
+    text-align: center;
+    line-height: 50%;
+}
+
+.logo{
+    align-items: center;
+    height: 94px;
+    background-color:#3C1822 ;
+    border: 7px solid #2F1920;
+    border-radius: 20px;
+    width: 19%;
+    margin-left: 3%;
+}
+
+.text_logo{
+    font-size: 36px;
+    letter-spacing: 5%;
+    color: #ffffff;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 50%;
+    
+    
+}
+
+.button_services{
+    width: 13%;
+    margin-left: 3%;
+    margin-right: 4%;
+    border: 7px solid #401D28;
+    border-radius: 40px;
+
+
+}
+
+.button_services:hover{
+    width: 13%;
+    margin-left: 3%;
+    margin-right: 4%;
+    border: 7px solid #2F1920;
+    border-radius: 40px;
+    background-color: #3C1822;
+
+
+}
+
+.text_button_services{
+    color: #B7A9AD;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.open-popup{
+    width: 20%;
+    margin-right: 2%;
+    border: 7px solid #401D28;
+    border-radius: 40px;
+
+}
+
+.open-popup:hover{
+    width: 20%;
+    margin-right: 2%;
+    border: 7px solid #2F1920;
+    border-radius: 40px;
+    background-color: #3C1822;
+
+}
+
+.text_button_application{
+    font-size: 26px;
+    color: #B7A9AD;
+    text-align: center;
+    line-height: 50%;
+}
+
+
+.CapMoscow{
+    width: 100%;
+    height: 769px;
+    display: block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+    
+
+
+
+}
+
+
+.information_block{
+    background-color: #353131;
+    width: 100%;
+    height: 769px;
+    z-index: 3;
+    
+
+    
+
+
+}
+
+.team{
+    object-fit: cover;
+    height: 486px;
+    width: 43%;
+    margin-top: 6%;
+    margin-left: 7%;
+    border: 10px solid rgba(47, 25, 31, 0.91);
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.team_info{
+    background-color: #542230;
+    width: 49%;
+    height: 340px;
+    border: 7px solid #2F191F;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    top: -55%;
+    left: 45%;
+    
+
+
+}
+.dron_info{
+    background-color: #542230;
+    width: 22%;
+    height: 157px;
+    border: 7px solid #2F191F;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    top: -58%;
+    left: 3%;
+    text-align: center;
+    position: relative;
+    
+    
+
+}
+
+.under_text_dron_info{
+    position: relative;
+    top: 40px;
+}
+
+
+.name_team_info{
+    font-size: 64px;
+    letter-spacing: 5%;
+    color: #B7A9AD;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.text_team_info{
+    font-size: 30px;
+    letter-spacing: 5%;
+    color: #B7A9AD;
+    text-align: center;
+    line-height: 120%;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.text_dron_info{
+    font-size: 20px;
+    letter-spacing: 15%;
+    color: #B7A9AD;
+    max-width: 90%;
+    margin-left: 4%;
+}
+
+.block_paintings{
+    width: 100%;
+    height: 438px;
+    background-color: #62001C;
+    opacity: 0.91;
+    display:flex;
+    align-items: center;
+
+}
+
+.paintings{
+    height: 324px;
+    width: 66.22%;
+    border-radius: 20px;
+    background-color: #1a0309;
+    margin-left: 17%;
+    position: absolute;
+    font-family: "Almendra Display";
+    font-style: oblique;
+    font-weight: lighter;
+    
+    
+}
+
+.dead_men{
+    width: 23.72%;
+    height: 250px;
+    position: relative;
+    left: 21%;
+    border-radius: 20px;
+}
+
+.paint_men{
+    width: 12.57%;
+    height: 221px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    left: 16%;
+    top: 19%;
+}
+
+.text_picaso{
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 5%;
+    width: 389px;
+    height: 156px;
+    line-height: 120%;
+    margin-left: 56%;
+    margin-top: 6%;
+    opacity: 0.6;
+    position: relative;
+    top: 5%;
+}
+
+.picaso_name{
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 5%;
+    width: 389px;
+    height: 156px;
+    line-height: 120%;
+    margin-left: 75%;
+    margin-top: 1%;
+    opacity: 0.65;
+    position: relative;
+    top: -2%;
+}
+
+.jobs{
+    width: 100%;
+    height: 1000px;
+    background-color: #353131;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.line_portfolio{
+    width: 100%;
+    height: 129px;
+    background-color: #542230;
+    position: relative;
+    top: 6.15%;
+    margin-bottom: 200px;
+    
+
+}
+
+.text_line_portfolio{
+    font-size: 64px;
+    color: #C0BEBE;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 0%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 90.47%;
+      height: 500px ;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+.company{
+    width: 100%;
+    height: 652px;
+    background-color: #2b2729;
+    border: 12px solid #970E35;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    
+}
+
+
+.list{
+
+    margin-top: 10.5%;
+
+}
+
+
+ul{
+    
+    font-size: 96px;
+    color: #C0BEBE;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 50%;
+    margin-left: 6.49%;
+    
+}
+
+.img_lukoil{
+    position: relative;
+    left: 58%;
+    top: -72%;
+}
+
+.img_netflix{
+    position: relative;
+    left: 22.8%;
+    top: -50%;
+}
+
+.img_metro{
+    position: relative;
+    left: 23.3%;
+    top: -50%;
+}
+
+.img_tesla{
+    position: relative;
+    left: 58%;
+    top: -44%;
+}
+
+.services{
+    width: 100%;
+    height: 1013px;
+    background-color: #353131;
+    display: flex;
+    flex-direction: column;
+}
+
+.line_services{
+    width: 100%;
+    height: 129px;
+    background-color: #542230;
+    position: relative;
+    top: 6.15%;
+    margin-bottom: 200px;
+}
+
+.text_services{
+    font-size: 64px;
+    color: #C0BEBE;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 0%;
+}
+
+
+
+
+.under_img{
+    background-color: #7B1633;
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+    position: relative;
+    top: -147%; height: 100px;
+   
+}
+
+.text_under{
+    font-size: 24px;
+    color: rgba(217, 216, 216, 0.83);
+    text-align: center;
+    line-height: 400%;
+
+
+
+}
+
+
+
+
+
+.container {
+    display: flex;
+}
+.item {
+    margin: 10px;
+    text-align: center;
+    line-height: 400%;
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 26%;
+    height: 100px;
+    margin-left: 5.2%;
+    width: 26%;
+    
+
+}
+
+
+.line_price{
+    width: 100%;
+    height: 126px;
+    background-color: #542230;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_price{
+    width: 33.24%;
+    height: 160px;
+    border: 3px solid rgba(47, 25, 32, 0.4);
+    border-radius: 20px;
+    background-color: #542230;
+    position: relative;
+
+}
+
+.text_button_price{
+    font-size: 36px;
+    color: rgba(255, 254, 254, 0.92);
+    letter-spacing: 4px;
+    text-align: center;
+    line-height: 230%;
+}
+
+.price_block{
+    background-color: #353131;
+    width: 100%;
+    height: 598px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.calculator{
+    width: 100%;
+    height: 420px;
+    background-color: #482530;
+    display: flex;
+    
+}
+
+.main_button{
+    width: 287px;
+    height: 73px;
+    background-color: #542230;
+    border: 3px solid #C0BEBE;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 72px;
+    margin-top: 10%;
+    font-size: 32px;
+    color: rgba(255, 254, 254, 0.92);
+    text-align: center;
+    line-height: 220%;
+
+}
+
+.button{
+    width: 255px;
+    height: 57px;
+    background-color: #542230;
+    border: 2px solid #C0BEBE;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 5%;
+    font-size: 28px;
+    color: rgba(255, 254, 254, 0.92);
+    text-align: center;
+    line-height: 200%;
+    
+    
+}
+
+
+
+
+
+.contacts{
+    width: 100%;
+    height: 426px;
+    background-color: #232323;
+    border-top: 12px solid #970E35;
+    display: flex;
+    position: relative;
+
+}
+
+.blocks_contacts{
+    border: 3px solid #542230;
+    border-radius: 5px;
+    width: 22.57%;
+    height: 299px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+
+
+.main_text{
+    font-size: 32px;
+    letter-spacing: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    
+
+
+}
+
+.under_main_text1{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+
+}
+
+.under_main_text2{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 4px;
+
+}
+
+.navigate_buttons{
+    border: 3px solid #542230;
+    border-radius: 5px;
+    width: 22.57%;
+    height: 299px;
+    align-items: center;
+    margin: auto;
+    float: inline-end;
+    
+    
+   
+}
+
+.text_navigate{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 32px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 10%;
+    
+}
+
+.text_navigate:hover{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 32px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 10%;
+    
+}
+
+.logo_contacts{
+    letter-spacing: 15px;
+}
+
+.logo_contacts:hover{
+    letter-spacing: 15px;
+    
+}
+
+
+.text_with_name_team{
+    position: relative;
+    top: 50px;
+}
+
+.popup-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    background: #ffffff;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-top: 60px;
+    border: 7px solid #542230;
+    border-radius: 8px;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup form input {
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 20px;
+    border: 5px solid #542230;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.popup form input[type="submit"] {
+    background: #542230;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
